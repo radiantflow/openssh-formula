@@ -19,12 +19,12 @@ Available states
 Installs the ``openssh`` server package and service.
 
 ``openssh.auth``
------------
+----------------
 
 Manages SSH certificates for users.
 
 ``openssh.auth_map``
------------
+--------------------
 
 Same functionality as openssh.auth but with a simplified Pillar syntax.
 Plays nicely with `Pillarstack
